@@ -1,6 +1,6 @@
 ---
 # Helm deployment
-helm_enabled: false
+helm_enabled: true
 
 # Registry deployment
 registry_enabled: false
@@ -168,8 +168,8 @@ metallb_namespace: "metallb-system"
 #           address_pool:
 #             - pool2
 
-argocd_enabled: false
-# argocd_namespace: argocd
+argocd_enabled: true
+argocd_namespace: argocd
 # Default password:
 #   - https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli
 #   ---
