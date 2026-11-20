@@ -1,2 +1,2 @@
 ---
-disable_service_firewall: false
+disable_service_firewall: true
